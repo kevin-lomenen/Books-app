@@ -14,7 +14,7 @@ import { useNavigate } from 'react-router-dom'
 
 const BookClubCard = ({ bookclub, user }) => {
   let navigate = useNavigate()
-//
+
   const [currentBook, setCurrentBook] = React.useState(null)
 
   React.useEffect(() => {
