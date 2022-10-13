@@ -28,7 +28,7 @@ const Goal = ({
   const { deadline, complete, meetingURL, notes, pages } = goal
   const formattedDate = changeDate(deadline)
 
-  //handle modals
+  //handle modal
   const [openModal, setOpenModal] = React.useState(false)
   const handleOpenModel = () => setOpenModal(true)
   const handleCloseModel = () => setOpenModal(false)
