@@ -12,7 +12,7 @@ Rails.application.routes.draw do
 
     patch "/bookclubs/:id/current-book", to: "bookclubs#current_book"
     resources :bookclubs
-    //
+    
 
     resources :books, only: [:show, :create, :destroy]
     
