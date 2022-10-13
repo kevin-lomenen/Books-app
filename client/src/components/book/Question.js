@@ -22,7 +22,7 @@ const Question = ({
     setComments(guideQuestion ? guideQuestion.comments : [])
   }, [guideQuestion])
 
-  //handle edit question modalsss
+  //handle edit question modal
   const [openQuestionModal, setOpenQuestionModal] = React.useState(false)
   const handleOpenQuestionModel = () => setOpenQuestionModal(true)
   const handleCloseQuestionModel = () => setOpenQuestionModal(false)
