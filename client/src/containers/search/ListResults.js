@@ -49,10 +49,10 @@ const ListResults = ({
             labelId='list-recommendations'
             onChange={handleListChange}
             value={listValue}>
-            {recommendationLists.map((rec) => (
+            {/* {recommendationLists.map((rec) => (
               <MenuItem value={rec.id}>{rec.name}</MenuItem>
-            ))}
-            
+            ))};
+             */}
           </Select>
         </FormControl>
       </Grid>
