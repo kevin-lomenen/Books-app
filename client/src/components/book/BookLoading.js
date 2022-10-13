@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, Typography } from '@mui/material'
 import { Skeleton } from '@mui/material'
-//
+
 const BookLoading = () => {
   return (
     <Grid item container spacing={2} alignItems='center'>
