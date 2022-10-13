@@ -11,7 +11,7 @@ import CancelIcon from '@mui/icons-material/Cancel'
 
 const Comment = ({ comment, user, edit, handleDeleteComment }) => {
   const [canDelete, setCanDelete] = React.useState(false)
-///
+
   React.useEffect(() => {
     if (user) {
       setCanDelete(edit || user.id === comment.user_id)
