@@ -25,5 +25,5 @@ const BookClubInfo = ({ name, members }) => {
     </>
   )
 }
-//
+
 export default BookClubInfo
