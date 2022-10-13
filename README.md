@@ -23,8 +23,8 @@ Backend
 - PostgreSQL
 - Bcrypt
 - Active Model Serializers
-//
-## How To Use
+
+## How To Use the app
 
 Install it and run:
 
