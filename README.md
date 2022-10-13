@@ -23,7 +23,7 @@ Backend
 - PostgreSQL
 - Bcrypt
 - Active Model Serializers
-
+//
 ## How To Use
 
 Install it and run:
@@ -241,7 +241,7 @@ bookclub_id: 1,
 status: "In Progress",
 archived: false,
 current: true,
-suggested_by: "Christine Contreras",
+suggested_by: "Peter Atito",
 book: {
 id: 1,
 title: "Dune",
@@ -304,7 +304,7 @@ bookclub_id: 1,
 status: "Not Started",
 archived: false,
 current: false,
-suggested_by: "Christine Contreras",
+suggested_by: "Peter Atito",
 book: {
 id: 2,
 title: "Brain Rules: 12 Principles for Surviving and Thriving at Work, Home, and School",
